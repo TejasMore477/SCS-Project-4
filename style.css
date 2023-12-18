@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-part1{
+    /* background-color: yellowgreen; */
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+}
+.nav-part1 #nav-left{
+    /* background-color: red; */
+    /* height: 30px;
+    width: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+} 
+.nav-part1 #nav-left .circle{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: black;
+    border-radius: 50%;
+}
+#nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.3rem;
+}
+h3{
+    font-size: 1rem;
+    font-weight:600;
+}
+span{
+    color: rgb(166, 166, 166);
+}
+.nav-part2{
+    /* background-color: pink; */
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 4rem;
+    padding: 0rem 2.5rem;
+}
+.nav-part2 h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.content{
+    height: calc(100% - 3.5rem - 3.5rem);
+    width: 100%;
+    /* background-color: rgb(234, 155, 231); */
+}
+.content .content-text{   
+    height: 40%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+}
+.content .content-text::-webkit-scrollbar{
+    background-color: transparent;
+    height: 0.4rem;
+}
+.content .content-text::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 68, 0, 0.662);
+}
+.content .content-text #text{
+    height: 100%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+     /* border: solid black 1px; */
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: star;
+    justify-content: center;
+}
+#text .top{
+    /* width: fit-content; */
+    width: 39.5%;
+    /* align-self: flex-start; */
+    /* padding-left: 3rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    /* background-color: red; */
+    gap: 1.5rem;
+}
+#text .top #num{
+    color:  rgba(255, 68, 0, 0.662);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#text .top h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+#text h1{
+    align-self: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.content .content-image{
+    height: 60%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.content .content-image::-webkit-scrollbar{
+    background-color: transparent;
+    height: 0.4rem;
+    display: none;
+}
+.content .content-image::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 68, 0, 0.662);
+}
+#image1{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0 ;
+    background-color: blueviolet;
+    border: 1px solid black;
+    background-image: url(img1.webp);
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image2{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0 ;
+    background-color: thistle;
+    border: 1px solid black;
+    background-image: url(img2.webp);
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image3{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0 ;
+    background-color: indianred;
+    border: 1px solid black;
+    background-image: url(img3.webp);
+    background-position: 0 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image4{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0 ;
+    background-color: royalblue;
+    border: 1px solid black;
+    background-image: url(img4.webp);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
